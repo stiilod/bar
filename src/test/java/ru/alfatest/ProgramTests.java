@@ -6,6 +6,6 @@ public class ProgramTests {
     @Test
     public void testArea() {
         Square square = new Square(5);
-        assert 25.0==24.0
+        assert square.evaluateSquare()==25;
     }
 }
